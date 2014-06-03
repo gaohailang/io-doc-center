@@ -4,7 +4,7 @@
         "protocol": "http",
         "baseURL": "api.klout.com",
         "publicPath": "/v2",
-        "headers" : {},
+        "headers": {},
         "auth": "key",
         "keyParam": "key"
     },
@@ -26,12 +26,12 @@
         "oauth": {
             "type": "three-legged",
             "requestURL": "https://api.linkedin.com/uas/oauth/requestToken",
-            "signinURL":  "https://api.linkedin.com/uas/oauth/authorize?oauth_token=",
-            "accessURL":  "https://api.linkedin.com/uas/oauth/accessToken",
+            "signinURL": "https://api.linkedin.com/uas/oauth/authorize?oauth_token=",
+            "accessURL": "https://api.linkedin.com/uas/oauth/accessToken",
             "version": "1.0",
             "crypt": "HMAC-SHA1"
         },
-        "keyParam":""
+        "keyParam": ""
     },
     "foursquare": {
         "name": "Foursquare (OAuth 2.0 Auth Code)",
@@ -48,7 +48,7 @@
             "customHeaders": "",
             "tokenName": "oauth_token"
         },
-        "keyParam":""
+        "keyParam": ""
     },
     "rdio": {
         "name": "Rdio Beta (OAuth 2.0 Client Credentials)",
@@ -59,12 +59,12 @@
         "auth": "oauth2",
         "oauth2": {
             "type": "client_credentials",
-            "baseSite":"https://www.rdio.com/",
+            "baseSite": "https://www.rdio.com/",
             "accessTokenURL": "oauth2/token",
             "customHeaders": "",
-            "authorizationHeader":"Y"
+            "authorizationHeader": "Y"
         },
-        "keyParam":""
+        "keyParam": ""
     },
     "rdio2": {
         "name": "Rdio Beta (OAuth 2.0 Implicit Grant)",
@@ -75,17 +75,28 @@
         "auth": "oauth2",
         "oauth2": {
             "type": "implicit",
-            "baseSite":"https://www.rdio.com/",
+            "baseSite": "https://www.rdio.com/",
             "accessTokenURL": "oauth2/authorize",
             "customHeaders": "",
-            "authorizationHeader":"Y"
+            "authorizationHeader": "Y"
         },
-        "keyParam":""
+        "keyParam": ""
     },
     "requestbin": {
         "name": "Requestb.in",
         "protocol": "http",
         "baseURL": "requestb.in",
         "publicPath": "/"
+    },
+    "who-wandoulabs": {
+        "name": "找豌豆 API",
+        "protocol": "http",
+        "baseURL": "who.wandoulabs.com",
+        "privatePath": "/api",
+        "publicPath": "/api/v1",
+        "headers": {
+            "host": "who.wandoulabs.com",
+            "Cookie": "user=\"eyJlbWFpbCI6ICJnYW9oYWlsYW5nQHdhbmRvdWppYS5jb20ifQ==|1400959170|764d57bc374ae60b073f6f42310c655c7eddf364\""
+        }
     }
 }
