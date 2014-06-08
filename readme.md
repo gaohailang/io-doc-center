@@ -1,4 +1,7 @@
 
+### About:
+live api documentation described by json config(about domain, about resource|endpoint) etc which is based on open-source i/o documentation, plus a add-on for google documentation which aids wdj's developer to create, parse, linter, push api json from doc to server
+
 ### TODO
 1. 导出一份现有的doc api 到 json中，看看痛点
 2. 看下的约束doc格式 googlescript等toolset怎么搞

@@ -1,0 +1,16 @@
+{
+    "name": "iodocs-proxy",
+    "version": "0.0.1",
+    "description": "proxy between iodocs-center and google docs",
+    "author": "gaohailang. <gaohailang@wandoujia.com>",
+    "dependencies": {
+        "express": "3.3.1",
+        "querystring": "0.1.0"
+    },
+    "devDependencies": {},
+    "main": "index",
+    "engines": {
+        "node": ">= 0.4.0",
+        "npm": ">= 1.1.49"
+    }
+}

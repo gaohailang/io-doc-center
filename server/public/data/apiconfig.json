@@ -98,5 +98,18 @@
             "host": "who.wandoulabs.com",
             "Cookie": "user=\"eyJlbWFpbCI6ICJnYW9oYWlsYW5nQHdhbmRvdWppYS5jb20ifQ==|1400959170|764d57bc374ae60b073f6f42310c655c7eddf364\""
         }
+    },
+    "who-wandoulabs-test": {
+        "who-wandoulabs-test": {
+            "name": "找豌豆 API",
+            "protocol": "http",
+            "baseURL": "who.wandoulabs.com",
+            "privatePath": "/api",
+            "publicPath": "/api/v1",
+            "headers": {
+                "host": "who.wandoulabs.com",
+                "Cookie": "user=\"eyJlbWFpbCI6ICJnYW9oYWlsYW5nQHdhbmRvdWppYS5jb20ifQ==|1400959170|764d57bc374ae60b073f6f42310c655c7eddf364\""
+            }
+        }
     }
 }
