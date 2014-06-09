@@ -7,3 +7,4 @@ pids/*
 # Ignore project files
 .idea/*
 *.iml
+helper-gs/demo

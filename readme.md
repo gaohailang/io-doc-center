@@ -16,3 +16,6 @@ live api documentation described by json config(about domain, about resource|end
 3. use markdonw in jade:
 `:markdown must have markdown-js installed or node-discount`
 4. do some custom for view jade etc
+
+### Screencast
+![gs-helper-v1](./material/gs-helper-v1.png "gs-helper-v1")
