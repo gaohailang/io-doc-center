@@ -9,6 +9,8 @@ live api documentation described by json config(about domain, about resource|end
 4. 看下怎么定制化 view 层，来个豌豆主题
 5. 引入打分机制，看看哪些api 常用并且好用！
 
+### GS-Helper
+当前的示例Doc [io-doc-center: API helper demo](https://docs.google.com/a/wandoujia.com/document/d/1lqhX-KvNBz0MX0azRIp4KR6YV4h-TWwPSQto41X0Tso/edit# "io-doc-center: API helper demo") io-doc-center: API helper demo.
 
 ### Note:
 1. include i/o docs move to server
